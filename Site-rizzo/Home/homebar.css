@@ -1,7 +1,37 @@
-.Home {
-    text-align: center;
-    width: 20px; 
-    height: 52.68px; 
-   
+
+.Menu_bar {
+    position: fixed;
     
+    width: 2546px;
+    height: 280px;
+    background-color: #6495ED;
+    border-radius: 32px;
+}
+.Home {
+    padding-top: 100px;
+    padding-right: 60px;
+    font-size: 200%;
+}
+.Servicos {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 200%;
+}
+.Sobre {
+    padding-top: 100px;
+    padding-left: 60px;
+    padding-right: 60px;
+    font-size: 200%;
+}
+.Contato{
+    padding-top: 100px;
+    padding-left: 60px;
+    font-size: 200%;
+}
+
+.logo {
+    
+    padding-right: 700px;
+    padding-inline-start: 100px;
 }
