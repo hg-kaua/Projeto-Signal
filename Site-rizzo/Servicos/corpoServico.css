@@ -1,0 +1,20 @@
+.corpoServices {
+    position: absolute;
+    margin-top: 250px;
+    
+}
+
+ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    font-size: 200%;
+    margin-left: 90px;
+  
+}
+.imagem1 {
+    box-shadow: 0px 0px 0px 6px;
+    width: 400px;
+    height: 330px;
+}
