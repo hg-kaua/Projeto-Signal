@@ -8,24 +8,29 @@
     <link rel="stylesheet" href="/Home/corpoHome.css">
     <link rel="stylesheet" href="/Servicos/serviceBar.css">
     <link rel="stylesheet" href="/Servicos/corpoServico.css">
+    <link rel="icon" href="/Imagens/Rizzo2.jpeg">
     <title>Rizzo Consultório Odontológico</title>
 </head>
 <body>
     <div> 
          <div class="Menu_bar">
             <div class="logo"> <img src="Imagens/Rizzo.png" style="height: 300px;"></div>
-            <div class="Home">Home</div>
+
+            <div class="Home" id="home"><a href="#imageHome">Home</a></div>
             <div style="padding-top: 170px; font-size: 400%;">|</div>
-            <div class="Servicos">Serviços</div>
+
+            <div class="Servicos"><a href="#service">Serviços</a></div>
             <div style="padding-top: 170px; font-size: 400%;">|</div>
+
             <div class="Sobre">Sobre</div>
             <div style="padding-top: 170px; font-size: 400%;">|</div>
+
             <div class="Contato">Contato</div>      
             
         </div>  
     </div>  
     <div >
-        <div class="imagemHome" style="height: 1000px; opacity: 0.8;">
+        <div class="imagemHome" style="height: 1000px; opacity: 0.8;" id="imageHome">
         
             <div>
                 <h1 class="Titulo">Bem vindo,</h1>
@@ -50,6 +55,7 @@
                         margin-left: 350px;
                         position: absolute;
                         z-index: 10;   
+                        
                     ">
                     <div class="description">
                         <h1 class="nome">Dr. Ramon Rizzo</h1>
@@ -88,7 +94,7 @@
                 </section>
             </div>
         </div>
-        <div class="service">
+        <div class="service" id="service">
             <div class="serviceBar"></div>
             <h1 class="tema">Serviços</h1>
 
@@ -96,35 +102,35 @@
                 <div> 
                     <ul>    
                         <li style="margin-right: 230px;"> 
-                            <p> Ortodontia </p> 
-                            <img src="/Imagens/ortodontia.jpeg" class="imagem1">
-                            
+                            <p> <b> Ortodontia </b> </p> 
+                            <img src="/Imagens/ortodontia.jpeg" class="imagem1">   
                         </li>
                         <li style="margin-right: 230px;">
-                             <p> Harmonização facial </p>
-                             <img src="/Imagens/harmonizacao.jpeg" class="imagem1"> 
+                             <p> <b> Harmonização facial </b> </p>
+                             <img src="/Imagens/harmonizacao.jpeg" class="imagem1" id="img2"> 
                         </li>
                         <li> 
-                            <p>Ortodontia preventiva</p>
+                            <p> <b> Ortodontia preventiva </b> </p>
                             <img src="/Imagens/preventiva.jpeg" class="imagem1">
                         </li>
                     </ul>  
                     <ul style="margin-top: 100px;">    
                         <li style="margin-right: 230px;"> 
-                            <p> Odontologia estética </p> 
+                            <p>  <b> Odontologia estética </b> </p> 
                             <img src="/Imagens/estetica.jpeg" class="imagem1">
                             
                         </li>
                         <li style="margin-right: 230px;">
-                             <p> Endodontia </p>
+                             <p> <b> Endodontia </b> </p>
                              <img src="/Imagens/Endodontia.jpeg" class="imagem1"> 
                         </li>
                         <li> 
-                            <p> Aparelhos ortodôntico </p>
+                            <p> <b> Aparelhos ortodôntico </b> </p>
                             <img src="/Imagens/Aparelhos .jpeg" class="imagem1">
                         </li>
                     </ul>  
                 </div>
+                <p id="link"><a href="Servicos/saibaMais.html" target="_blank">saiba mais</a></p>
             </div>
         </div>
     </body>

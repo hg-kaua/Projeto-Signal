@@ -14,11 +14,26 @@
     
     font-size: 200%;
 }
+.Home a {
+    text-decoration: none;
+    color:black;
+}
+.Home a:hover{
+    color:white;
+}
+
 .Servicos {
     padding-top: 200px;
     padding-left: 60px;
     padding-right: 60px;
     font-size: 200%;
+}
+.Servicos a{
+    text-decoration: none;
+    color: black;
+}
+.Servicos a:hover{
+    color: white;
 }
 .Sobre {
     padding-top: 200px;
