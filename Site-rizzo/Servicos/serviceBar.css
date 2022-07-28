@@ -1,0 +1,19 @@
+.service {
+    margin-top: 800px;  ;
+}
+.serviceBar {
+    position: absolute;
+    height: 150px;
+    width: 100%;
+    background: #6495ED;
+}
+.tema {
+    position: absolute;
+    z-index: 100;
+    color: aliceblue;
+    font-size: 300%;
+    margin-left: 865px;
+    margin-top: 50px;
+    text-shadow: 
+    2px 2px 2px black;
+}
